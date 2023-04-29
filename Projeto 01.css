@@ -18,6 +18,9 @@ header {
 .link-header:hover {
     opacity: .8;
 }
+.link-header:active {
+    opacity: .4;
+}
 .button-header {
     background: #665AE1;
     border-radius: 20.5px;
@@ -31,6 +34,9 @@ header {
 }
 .button-header:hover {
     opacity: .8;
+}
+.button-header:active{
+    opacity: .4;
 }
 .logo-image {
     width: 568px;
@@ -78,6 +84,9 @@ p {
 }
 .button-main:hover {
     opacity: .8;
+}
+.button-main:active {
+    opacity: .4;
 }
 
 @media screen and (max-width: 800px) {
